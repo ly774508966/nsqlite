@@ -1,11 +1,4 @@
-════════════════════════════════════════════════
-
-                NSqlite		          
-        Copyright © 2015 NPlugins      
-              Version 1.0.1                       
-        nplugins.unity@gmail.com   
-
-════════════════════════════════════════════════
+#NSqlite
 
 NSqlite is an extremely simple library for writing and retrieving data from local Sqlite database. It’s differential resides in the fact that it requires no query writing for the developer and supports many types of variables.
 
@@ -13,11 +6,8 @@ It takes as parameters, for inserting to the database, custom models, created by
 
 As a limitation, NSqlite cannot handle some Unity specific class (GameObject, Transform, Material, etc), and requires that the developer’s models extends from it’s base class, “Storable”. Also, in this first version, any changes in the models may require the developer to recreate the correspondent Sqlite table. 
 
-╔═════╗
 
-║Usage║
-
-╚═════╝
+##Usage
 
 NSqlite is really straightforward to use. It provides four kind of interactions:
 
@@ -33,11 +23,8 @@ NSqlite is really straightforward to use. It provides four kind of interactions:
 * Delete
   - Allows you to delete single entries in the database, within a criteria, or the whole table.
 
-╔═══════╗
 
-║Samples║
-
-╚═══════╝
+##Samples
 
 Samples can be found inside sample folder.
 
